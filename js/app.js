@@ -193,9 +193,24 @@ function renderLogin(errorText = '') {
     <div class="auth">
       <div class="auth-art">
         ${brandHTML(true)}
+        <div class="auth-art-mark" aria-hidden="true">
+          <svg viewBox="0 0 320 320" fill="none">
+            <circle cx="160" cy="160" r="139" stroke="currentColor" stroke-width="3" />
+            <circle cx="160" cy="160" r="124" stroke="currentColor" stroke-width="1.5" />
+            <path d="M69 174h182l-18 63c-8 28-34 47-63 47h-20c-29 0-55-19-63-47l-18-63Z"
+              stroke="currentColor" stroke-width="7" stroke-linejoin="round" />
+            <path d="M79 185c22 15 45 22 72 22h17c27 0 50-7 73-22" stroke="currentColor" stroke-width="5" stroke-linecap="round" />
+            <path d="M122 169c-4-35-28-59-59-72-4 35 8 63 36 82M147 164c-1-33 15-60 44-81 12 34 5 62-21 85"
+              stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="m207 103-62 68" stroke="currentColor" stroke-width="9" stroke-linecap="round" />
+            <circle cx="214" cy="96" r="14" stroke="currentColor" stroke-width="7" />
+          </svg>
+        </div>
         <div>
           <h1>Run your herbal store from one place.</h1>
           <p>Manage products and prices, process orders, and keep your customers happy.</p>
+          <p class="founder-note"><strong>Atabik Zahid</strong> founded this herbal initiative to bring trusted, natural wellness closer to everyday life through a modern digital experience.</p>
+          <p class="initiative-note">This vision powers <strong>Herbify</strong> — an online herbal app designed to make natural products, wellness education, and trusted care more accessible for everyone.</p>
         </div>
         <p class="small" style="opacity:.6">Only accounts with the admin role can sign in.</p>
       </div>
