@@ -194,16 +194,15 @@ function renderLogin(errorText = '') {
       <div class="auth-art">
         ${brandHTML(true)}
         <div class="auth-art-mark" aria-hidden="true">
-          <svg viewBox="0 0 320 320" fill="none">
-            <circle cx="160" cy="160" r="139" stroke="currentColor" stroke-width="3" />
-            <circle cx="160" cy="160" r="124" stroke="currentColor" stroke-width="1.5" />
-            <path d="M69 174h182l-18 63c-8 28-34 47-63 47h-20c-29 0-55-19-63-47l-18-63Z"
-              stroke="currentColor" stroke-width="7" stroke-linejoin="round" />
-            <path d="M79 185c22 15 45 22 72 22h17c27 0 50-7 73-22" stroke="currentColor" stroke-width="5" stroke-linecap="round" />
-            <path d="M122 169c-4-35-28-59-59-72-4 35 8 63 36 82M147 164c-1-33 15-60 44-81 12 34 5 62-21 85"
-              stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="m207 103-62 68" stroke="currentColor" stroke-width="9" stroke-linecap="round" />
-            <circle cx="214" cy="96" r="14" stroke="currentColor" stroke-width="7" />
+          <svg viewBox="0 0 220 170" fill="none">
+            <path d="M91 91C69 83 57 67 54 52c22 2 38 14 45 34M105 86c-3-24 6-43 23-57 12 20 9 41-8 60"
+              fill="#a8d66d" />
+            <path d="M100 92 148 42" stroke="currentColor" stroke-width="11" stroke-linecap="round" />
+            <circle cx="153" cy="37" r="11" fill="currentColor" />
+            <path d="M38 92c29 11 115 11 144 0l-8 39c-3 17-17 27-34 29H80c-17-2-31-12-34-29l-8-39Z"
+              fill="currentColor" />
+            <path d="M38 92c29 11 115 11 144 0" stroke="#a8d66d" stroke-width="5" stroke-linecap="round" />
+            <path d="M173 118c-2 13-9 22-19 27" stroke="#a8d66d" stroke-width="4" stroke-linecap="round" />
           </svg>
         </div>
         <div>
